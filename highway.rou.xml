@@ -1,0 +1,17 @@
+<routes>
+	<vType id="car"
+		vClass="passenger" length="5" accel="2.5" decel="1.5"
+		sigma="1.0" maxSpeed="7" />
+		
+	<vehicle id="0" depart="0">
+		<route edges="e1 e2" />
+			<stop parkingArea="p1" duration="20" />
+	</vehicle>
+		
+		 
+	<route id="route_0" edges="e1 e2" />
+	<flow id="carflow" type="car" beg="0" end="0" number="505" from="e1" to="e2" />
+	
+
+</routes>
+	

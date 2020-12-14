@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vehicle id="car1" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="20"/>
+    </vehicle>
+	
+    <vehicle id="car2" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="60"/>
+    </vehicle>
+
+    <vehicle id="car3" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="20"/>
+    </vehicle>
+	
+    <vehicle id="car4" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="30"/>
+    </vehicle>
+	
+    <vehicle id="car5" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a2_0_0" duration="40"/>
+    </vehicle>
+	
+    <vehicle id="car6" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a2_0_0" duration="109"/>
+    </vehicle>
+
+    <vehicle id="car7" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a2_0_0" duration="200"/>
+    </vehicle>
+	
+    <vehicle id="car8" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a2_0_0" duration="69"/>
+    </vehicle>
+	
+    <vehicle id="car9" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a2_0_0" duration="250"/>
+    </vehicle>
+	
+    <vehicle id="car10" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_b2_0_0" duration="149"/>
+    </vehicle>
+
+    <vehicle id="car11" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a2_0_0" duration="20"/>
+    </vehicle>
+	
+    <vehicle id="car12" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="109"/>
+    </vehicle>
+	
+    <vehicle id="car13" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="200"/>
+    </vehicle>
+	
+    <vehicle id="car14" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_b2_0_0" duration="190"/>
+    </vehicle>
+	
+    <vehicle id="car15" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="290"/>
+    </vehicle>
+	
+    <vehicle id="car16" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="197"/>
+    </vehicle>
+	
+    <vehicle id="car17" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="201"/>
+    </vehicle>
+	
+    <vehicle id="car18" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="193"/>
+    </vehicle>
+	
+    <vehicle id="car19" type="passenger" depart="0">
+        <route edges="a1 a3"/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="20"/>
+    </vehicle>
+	
+    <vehicle id="car20" type="passenger" depart="0">
+        <route edges="a1 b3 "/>
+        <stop parkingArea="parkingArea_a1_0_0" duration="19"/>
+    </vehicle>
+
+</routes>
