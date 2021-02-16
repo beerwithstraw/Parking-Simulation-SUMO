@@ -26,15 +26,12 @@ def get_options():
 
 # contains TraCI control loop
 def run():
-    step = 0
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
-        print(step)
-
-
-
+    car = getHeight("car1")
+    print(car)
     traci.close()
-    sys.stdout.flush()
+    # sys.stdout.flush()
 
 
 # main entry point

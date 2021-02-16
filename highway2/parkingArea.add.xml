@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <parkingArea id="parkingArea_a1_0_0" lane="a1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
-    <parkingArea id="parkingArea_a2_0_0" lane="a2_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
-    <parkingArea id="parkingArea_a3_0_0" lane="a3_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
-    <parkingArea id="parkingArea_b1_0_0" lane="b1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
-    <parkingArea id="parkingArea_b2_0_0" lane="b2_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
-    <parkingArea id="parkingArea_c1_0_0" lane="c1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
-    <parkingArea id="parkingArea_d1_0_0" lane="d1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
-    <parkingArea id="parkingArea_d2_0_0" lane="d2_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="30"/>
+    <parkingArea id="parkingArea_a1_0_0" lane="a1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
+    <parkingArea id="parkingArea_a2_0_0" lane="a2_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
+    <parkingArea id="parkingArea_a3_0_0" lane="a3_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
+    <parkingArea id="parkingArea_b1_0_0" lane="b1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
+    <parkingArea id="parkingArea_b2_0_0" lane="b2_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
+    <parkingArea id="parkingArea_c1_0_0" lane="c1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
+    <parkingArea id="parkingArea_d1_0_0" lane="d1_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
+    <parkingArea id="parkingArea_d2_0_0" lane="d2_0" length="5" friendlyPos="1" roadsideCapacity="15" startPos="30" endPos="80" angle="150"/>
 	
 </additional>
