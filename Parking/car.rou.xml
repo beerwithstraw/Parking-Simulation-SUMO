@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vehicle id="car1" type="passenger" depart="0">
+        <route edges="e a6 e"/>
+        <stop parkingArea="pa1" duration="20"/>
+    </vehicle>
+	
+    <vehicle id="car2" type="passenger" depart="0">
+        <route edges="e a6 c1 e "/>
+        <stop parkingArea="pa1" duration="60"/>
+    </vehicle>
+
+</routes>
