@@ -1,7 +1,0 @@
-<configuration>
-	<input>
-		<net-file value="highway.net.xml"/>
-		<route-files value="highway.rou.xml"/>
-		<additional-files value="highway.add.xml"/>
-	</input>
-</configuration>
