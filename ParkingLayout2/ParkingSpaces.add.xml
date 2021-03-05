@@ -42,10 +42,10 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <parkingArea id="1" lane="1a_0" startPos="4.90" endPos="61.00" friendlyPos="1" width="2.60" length="4" angle="90.00">
-        <space x="408.22" y="-790.00" width="3.00" angle="90.00"/>
-        <space x="408.22" y="-787.00" width="3.00" angle="90.00"/>
-        <space x="408.22" y="-784.00" width="3.00" angle="90.00"/>
+<parkingArea id="1" lane="1a_0" startPos="4.90" endPos="61.00" length="5" friendlyPos="1" roadsideCapacity="14" angle="90.00">
+        <!-- <space x="408.22" y="-790.00" width="3.20" angle="90.00"/>
+        <space x="408.22" y="-787.00" width="3.20" angle="90.00"/> -->
+        <!-- <space x="408.22" y="-784.00" width="3.00" angle="90.00"/>
         <space x="408.22" y="-781.00" width="3.00" angle="90.00"/>
         <space x="408.22" y="-778.00" width="3.00" angle="90.00"/>
         <space x="408.22" y="-775.00" width="3.00" angle="90.00"/>
@@ -59,11 +59,11 @@
         <space x="408.22" y="-751.00" width="3.00" angle="90.00"/>
         <space x="408.22" y="-748.00" width="3.00" angle="90.00"/>
         <space x="408.22" y="-745.00" width="3.00" angle="90.00"/>
-        <space x="408.22" y="-742.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-742.00" width="3.00" angle="90.00"/> -->
 
     </parkingArea>
-    <parkingArea id="2" lane="1b_0" startPos="12.90" endPos="69.10" width="2.6" angle="90.00">
-        <space x="396.80" y="-790" width="3.00" angle="90.00"/>
+    <parkingArea id="2" lane="1b_0" startPos="12.90" endPos="69.10" length="5" friendlyPos="1" roadsideCapacity="14" angle="90.00">
+        <!-- <space x="396.80" y="-790" width="3.00" angle="90.00"/>
         <space x="396.80" y="-787" width="3.00" angle="90.00"/>
         <space x="396.80" y="-784" width="3.00" angle="90.00"/>
         <space x="396.80" y="-781" width="3.00" angle="90.00"/>
@@ -79,10 +79,10 @@
         <space x="396.80" y="-751" width="3.00" angle="90.00"/>
         <space x="396.80" y="-748" width="3.00" angle="90.00"/>
         <space x="396.80" y="-745" width="3.00" angle="90.00"/>
-        <space x="396.80" y="-742" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-742" width="3.00" angle="90.00"/> -->
     </parkingArea>
-    <!-- <parkingArea id="3" lane="3b_0" startPos="5.00" endPos="43.00" width="3.00" angle="90.00"/>
-    <parkingArea id="4" lane="3a_0" startPos="2.00" endPos="40.00" width="3.00" angle="90.00"/>
-    <parkingArea id="5" lane="5_0" startPos="2.00" endPos="38.00"/>
-    <parkingArea id="6" lane="gneE22_0" startPos="4.00" endPos="60.00"/> -->
+    <parkingArea id="3" lane="3b_0" startPos="5.00" endPos="43.00" length="5" friendlyPos="1" roadsideCapacity="12" angle="90.00"></parkingArea>
+    <parkingArea id="4" lane="3a_0" startPos="2.00" endPos="40.00" length="5" friendlyPos="1" roadsideCapacity="12" angle="90.00"/>
+    <parkingArea id="5" lane="5_0" startPos="2.00" endPos="38.00" length="5" friendlyPos="1" roadsideCapacity="14" angle="90.00"/>
+    <!-- <parkingArea id="6" lane="7" startPos="4.00" endPos="60.00" length="5" friendlyPos="1" roadsideCapacity="14" angle="90.00"/> -->
 </additional>

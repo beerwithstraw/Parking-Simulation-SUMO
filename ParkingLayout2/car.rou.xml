@@ -12,4 +12,8 @@
         <stop parkingArea="1" duration="60"/>
     </vehicle>
 
+    <vehicle id="car3" type="passenger" depart="0">
+        <route edges="1b 0b "/>
+        <stop parkingArea="2" duration="60"/>
+    </vehicle>
 </routes>
