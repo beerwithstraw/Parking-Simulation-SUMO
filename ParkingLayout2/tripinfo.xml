@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/07/21 21:07:21 by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Layout.net.xml"/>
+        <route-files value="car.rou.xml"/>
+        <additional-files value="ParkingSpaces.add.xml,vehicles.vType.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <step-length value=".25"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="54855"/>
+    </traci_server>
+
+    <gui_only>
+        <tracker-interval value="0.25"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="car1" depart="0.00" departLane="0a_0" departPos="4.60" departSpeed="0.00" departDelay="0.00" arrival="55.00" arrivalLane="1b_0" arrivalPos="35.87" arrivalSpeed="7.72" duration="55.00" routeLength="205.18" waitingTime="4.00" waitingCount="1" stopTime="24.00" timeLoss="5.10" rerouteNo="1" devices="tripinfo_car1 routing_car1" vType="reroutingType" speedFactor="0.98" vaporized="traci"/>
+    <tripinfo id="carX" depart="25.00" departLane="0a_0" departPos="4.60" departSpeed="0.00" departDelay="0.00" arrival="73.25" arrivalLane="8_0" arrivalPos="60.00" arrivalSpeed="7.94" duration="48.25" routeLength="364.68" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.48" rerouteNo="1" devices="tripinfo_carX routing_carX" vType="reroutingType" speedFactor="1.06" vaporized=""/>
+</tripinfos>

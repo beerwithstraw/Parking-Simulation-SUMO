@@ -2,12 +2,12 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
 
     <vehicle id="car1" type="passenger" depart="0">
-        <route edges="0a 1a "/>
-        <stop parkingArea="1" duration="50"/>
+        <route edges="0a 1a 4 5 6 7 8 0b"/>
+        <stop parkingArea="1" duration="20"/>
 
     </vehicle>
 	
-    <vehicle id="car2" type="passenger" depart="0">
+    <!-- <vehicle id="car2" type="passenger" depart="0">
         <route edges="0a 1a 1b 0b"/>
         <stop parkingArea="1" duration="60"/>
         <stop parkingArea="2" duration="60"/>
@@ -17,5 +17,5 @@
     <vehicle id="car3" type="passenger" depart="0">
         <route edges="1b 0b "/>
         <stop parkingArea="2" duration="60"/>
-    </vehicle>
+    </vehicle> -->
 </routes>
