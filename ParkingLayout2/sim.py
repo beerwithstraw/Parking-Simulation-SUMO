@@ -28,28 +28,37 @@ def run():
     step = 0
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
+
+
         step = step + 1
         if (step == 100):
             traci.route.add('route1', ["0a", "8"])
             traci.vehicle.add('carX', 'route1', typeID="reroutingType")
             print(traci.vehicle.getRouteID('carX'))
+            print('***************')
+
+        if (step <= 200):
+            x, y = traci.vehicle.getPosition('car1')
+            lon, lat = traci.simulation.convertGeo(x, y)
+            print(lon, lat)
+            # x2, y2 = traci.simulation.convertGeo(lon, lat, fromGeo=True)
+            # print(x2, y2)
 
         if (step == 200):
+            print('***************')
             print(traci.vehicle.getAccel("car1"))
             print(traci.vehicle.getRouteID('car1'))
             print(traci.vehicle.getLanePosition('car1'))
             print(traci.vehicle.getRoute('carX'))
             print(traci.vehicle.getRouteIndex('car1'))
-            
+
+
 
         if (step == 220):
             traci.vehicle.remove('car1')
 
-        # traci.vehicle.add(vehID="carX", routeID="1a")
-        # traci.vehicle.getRoute(vehID="carX")
     print(step)
-    
-    # traci.vehicle.getLanePosition(vehID="car1")
+
     traci.close()
     sys.stdout.flush()
 
